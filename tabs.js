@@ -11,6 +11,7 @@ function handleTabClick(event) {
   event.currentTarget.setAttribute('aria-selected', true);
   // Find the associated tabPanel and show it!
   const { id } = event.currentTarget;
+
   // METHOD 1
   // const tabPanel = tabs.querySelector(`[aria-labelledby="${id}"]`);
   // tabPanel.hidden = false;
